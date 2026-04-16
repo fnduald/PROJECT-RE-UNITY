@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // 3. 공격 로직 (마우스 왼쪽 클릭 또는 왼쪽 Ctrl)
-        // 기존 Z키 대신 더 보편적인 Fire1(마우스 왼쪽)을 사용하도록 수정했습니다.
+        // 기존 Z키 대신 더 보편적인 Fire1(마우스 왼쪽)을 사용하도록 수정했습니다
         if (canShoot && Input.GetButtonDown("Fire1"))
         {
             Shoot();

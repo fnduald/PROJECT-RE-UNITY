@@ -97,7 +97,7 @@ public class BossAI : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // 플레이어와 충돌 시 재시작
+    // 플레이어와 충돌 시재시작
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

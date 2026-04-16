@@ -26,7 +26,7 @@ public class Bullet : MonoBehaviour
                 boss.TakeDamage(1);
             }
 
-            // 4. 총알은 보스에 닿았으니 사라집니다.
+            // 4. 총알은 보스에 닿았으니 사라집니다
             Destroy(gameObject);
         }
     }

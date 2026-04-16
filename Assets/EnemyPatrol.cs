@@ -4,7 +4,7 @@ public class EnemyPatrol : MonoBehaviour
 {
     public float speed = 2f;
     private bool movingRight = true;
-    public Transform groundCheck; // 적 발앞에 위치시킬 빈 오브젝트
+    public Transform groundCheck; // 적 발앞에 위치시킬 빈 오브젝트.
 
     void Update()
     {

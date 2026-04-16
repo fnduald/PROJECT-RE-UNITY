@@ -20,6 +20,6 @@ public class BossHP : MonoBehaviour
     {
         Debug.Log("보스 처치 완료!");
         Destroy(gameObject); // 보스 삭제
-        // 여기서 승리 텍스트를 띄우거나 다음 스테이지로 넘기는 코드를 넣으면 됩니다.
+        // 여기서 승리 텍스트를 띄우거나 다음 스테이지로 넘기는 코드를 넣으면 됩니다
     }
 }

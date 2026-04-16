@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // 씬 관리를 위해 꼭 필요합니다.
+using UnityEngine.SceneManagement; // 씬 관리를 위해 꼭 필요합니다..
 
 public class LevelLoader : MonoBehaviour
 {
